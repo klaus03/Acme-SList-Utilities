@@ -2,3 +2,8 @@ Revision history for Acme-SList-Scheduler
 
 0.01    07 Nov 2011
         First version, released on an unsuspecting world.
+
+0.02    23 Nov 2011
+        Add File::Slurp to the list of required modules
+        in Makefile.PL    PREREQ_PM  => { 'File::Slurp' => 0 }
+        in Build.PL       requires   => { 'File::Slurp' => 0 }

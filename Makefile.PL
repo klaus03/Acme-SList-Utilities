@@ -6,7 +6,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     NAME              => 'Acme::SList::Utilities',
     VERSION_FROM      => 'lib/Acme/SList/Utilities.pm', # finds $VERSION
-    PREREQ_PM         => { }, # e.g., Module::Name => 1.1
+    PREREQ_PM         => { 'File::Slurp' => 0 }, # e.g., Module::Name => 1.1
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM  => 'lib/Acme/SList/Utilities.pm', # retrieve abstract from module
        AUTHOR         => 'Klaus Eichner <klaus03@gmail.com>') : ()),

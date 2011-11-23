@@ -18,12 +18,17 @@
          "requires" : {
             "Module::Build" : "0.3"
          }
+      },
+      "runtime" : {
+         "requires" : {
+            "File::Slurp" : 0
+         }
       }
    },
    "provides" : {
       "Acme::SList::Utilities" : {
          "file" : "lib/Acme/SList/Utilities.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -32,5 +37,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }

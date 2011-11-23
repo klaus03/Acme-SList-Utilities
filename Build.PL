@@ -8,6 +8,6 @@ Module::Build->new(
   module_name        => 'Acme::SList::Utilities',
   license            => 'perl',
   configure_requires => { 'Module::Build' => 0.30 },
-  requires           => { },
+  requires           => { 'File::Slurp' => 0 },
   dist_abstract      => 'Various utilitiy-functions for the SList suite of programs',
 )->create_build_script;
