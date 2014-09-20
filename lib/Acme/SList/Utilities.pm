@@ -10,7 +10,7 @@ require Exporter;
 our @ISA       = qw(Exporter);
 our @EXPORT    = qw();
 our @EXPORT_OK = qw(crdir sdate sduration commify target dircopy);
-our $VERSION   = '0.02';
+our $VERSION   = '0.03';
 
 sub crdir {
     my ($path) = @_;
